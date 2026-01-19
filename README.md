@@ -28,6 +28,8 @@ Built as a portfolio piece to demonstrate:
 - Responsive layout
 - Clean console & high Lighthouse scores
 
+## 📸 UI Preview 
+![Expense Form Screenshot](../nexus-digital-wallet/src/assets/Digital-wallet.png)
 ## How to Run
 ```bash
 # Clone the repo
@@ -39,7 +41,4 @@ npm install
 # Start dev server
 npm run dev
 
-## 📸 UI Preview 
-![Expense Form Screenshot](../assets/expense-form.png)
-![Expense Form Screenshot](./assets/sort_filter_edit_delete.png)
-![Expense Form Screenshot](./assets/undo.png)
+
