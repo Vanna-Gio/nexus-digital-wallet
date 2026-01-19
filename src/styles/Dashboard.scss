@@ -1,0 +1,22 @@
+@import '../styles/variables';
+.dashboard {
+    min-height: 100vh;
+    background: #f6f7fa;
+
+}
+.app-header {
+    background: $deep-blue;
+    color: white;
+    padding: 16px 24px;
+    text-align: center;
+
+    h1 {
+        margin: 0;
+        font-size: 1.6rem;
+    }
+}
+.main-content {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 16px;
+}

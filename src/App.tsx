@@ -1,16 +1,7 @@
-import './App.css'; 
-import  TransactionList  from './components/TransactionList';
+import Dashboard from './components/Dashboard';
 function App() {
   return (
-    <div className="App">
-      <header>
-        <h1>Nexus Digital Wallet!</h1>
-      </header>
-      <main>
-        <TransactionList />
-      </main>
-      
-    </div>
+    <Dashboard />
   );
 }
 

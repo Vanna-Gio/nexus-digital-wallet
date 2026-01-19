@@ -1,0 +1,44 @@
+@import '../styles/variables';
+.balance-card {
+    background: linear-gradient(135deg, $deep-blue, #004080);
+    color: $white;
+    border-radius: 12px;
+    margin: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    h2 {
+        margin: 0 0 20px 0;
+        font-size: 1.4rem;
+    }
+    .balances {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 32px;
+        .balance-item {
+            flex: 1;
+            min-width: 180px;
+
+            .label {
+                display: block;
+                font-size: 0.95rem;
+                opacity: 0.9;
+                margin-bottom: 8px;
+            }
+            .amount {
+                font-size: 1.8rem;
+                font-weight: 600;
+            }
+        }
+        .usd .amount { color: $gold}
+        khr .amount { color: #e0e0e0}
+    }
+
+    &.fade-in {
+        animation: fadeIn 1s ease-out;
+    }
+
+    
+}
+@keyframes fadeIn {
+    from { opacity: 0; transform:  translateY(20px);}
+    to {opacity: 1; transform: translateY(0);}
+}
