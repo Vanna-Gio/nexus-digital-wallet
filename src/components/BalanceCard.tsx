@@ -22,7 +22,11 @@ export default function BalanceCard() {
             <div className="balances">
                 <div className="balance-item usd">
                     <span className="label">USD Account</span>
-                    <span className="amount">{formatCurrency(usdBalance, 'USD')}</span>
+                    
+                    <span className={`amount ${usdBalance < 0 ? 'negative' : ''}`}>
+                        {formatCurrency(Math.abs(usdBalance), 'USD')}
+                        {usdBalance < 0 ? ' (Overdrawn)' : ''}
+                    </span>
                     
                 </div>
                 <div className="balance-item khr">

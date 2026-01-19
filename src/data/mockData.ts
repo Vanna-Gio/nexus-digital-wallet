@@ -42,7 +42,7 @@ export const mockTransactions: Transaction[] = [
     date: "2026-01-14T07:20:00Z",
     description: "Cash Deposit at CSM",
     category: "Deposit",
-    amount: 2000000,
+    amount: 20000,
     currency: "KHR",
     status: "Completed"
   },
@@ -78,7 +78,7 @@ export const mockTransactions: Transaction[] = [
     date: "2026-01-10T13:45:00Z",
     description: "Water Bill",
     category: "Bill Payment",
-    amount: -250000,
+    amount: -2500,
     currency: "KHR",
     status: "Completed"
   },
@@ -90,5 +90,33 @@ export const mockTransactions: Transaction[] = [
     amount: -300,
     currency: "USD",
     status: "Pending"
+  },
+   {
+    id: "tx011",
+    date: "2026-01-09T10:00:00Z",
+    description: "ATM Withdrawal",
+    category: "Withdrawal",
+    amount: -300,
+    currency: "USD",
+    status: "Pending"
+  },
+  {
+    id: "tx007",
+    date: "2026-01-12T12:00:00Z",
+    description: "Freelance Payment",
+    category: "Deposit",
+    amount: 800,
+    currency: "USD",
+    status: "Completed"
+  },
+   {
+    id: "tx013",
+    date: "2026-01-09T10:00:00Z",
+    description: "ATM Withdrawal",
+    category: "Withdrawal",
+    amount: -300,
+    currency: "USD",
+    status: "Pending"
   }
+  
 ];
