@@ -1,9 +1,15 @@
 import './App.css'; 
- 
+import  TransactionList  from './components/TransactionList';
 function App() {
   return (
     <div className="App">
-      <h1>Hello, Nexus Digital Wallet!</h1>
+      <header>
+        <h1>Nexus Digital Wallet!</h1>
+      </header>
+      <main>
+        <TransactionList />
+      </main>
+      
     </div>
   );
 }

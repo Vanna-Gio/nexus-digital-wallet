@@ -1,0 +1,45 @@
+@import '../styles/variables';
+
+.transaction-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 20px;
+    border-bottom: 1px solid #eee;
+    background: $white;
+
+    &:hover {
+        background: #f8f9fa;
+    }
+    .left {
+        flex: 1;
+        .description {
+            font-weight: 800;
+            color: $deep-blue;
+
+        }
+        .date, .category {
+            font-size: 0.85rem;
+            color: #666;
+            margin-top: 4px;
+        }
+    }
+    .right {
+        text-align: right;
+        .amount {
+            font-weight: 600;
+            font-size: 1.1rem;
+            &.positive { color: #2e7d32}
+            &.negative { color: $red}
+
+        }
+        .status {
+            font-size: 0.8rem;
+            margin-top: 4px;
+            font-weight: 500;
+        }
+    }
+    &.completed .status { color: #2e7d32}
+    &.pending .status { color: $gold}
+    &.failed  .status { color: $red}
+}
