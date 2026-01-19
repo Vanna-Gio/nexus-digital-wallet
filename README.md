@@ -1,5 +1,7 @@
 # Nexus Digital Wallet Dashboard
 
+**Live Demo:** https://sovanna-nexus-digital-wallet.netlify.app/
+
 A responsive React + TypeScript dashboard simulating a digital banking/wallet app, inspired by ABA Bank's clean mobile design.
 
 Built as a portfolio piece to demonstrate:
@@ -36,3 +38,8 @@ npm install
 
 # Start dev server
 npm run dev
+
+## 📸 UI Preview 
+![Expense Form Screenshot](../assets/expense-form.png)
+![Expense Form Screenshot](./assets/sort_filter_edit_delete.png)
+![Expense Form Screenshot](./assets/undo.png)

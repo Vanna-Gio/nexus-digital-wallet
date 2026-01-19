@@ -1,12 +1,11 @@
 import BalanceCard from "./BalanceCard";
 import TransactionList from "./TransactionList";
 import '../styles/Dashboard.scss'
+import ProfileHeader from "./ProfileHeader";
 export default function Dashboard() {
     return(
         <div className="dashboard">
-            <header className="app-header">
-                <h1>Nexus Digital Wallet</h1>
-            </header>
+            <ProfileHeader />
 
             <main className="main-content">
                 <BalanceCard />

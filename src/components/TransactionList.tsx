@@ -7,7 +7,7 @@ export default function TransactionList() {
   const [searchTerm, setSearchTerm] = useState('');
   const [filterCategory, setFilterCategory] = useState<string>('All');
   const [sortOrder] = useState<'newest' | 'oldest' > ('newest'); // we can make this changeable later
-  const [visibelCount, setVisibleCount] = useState(10);
+  const [visibelCount, setVisibleCount] = useState(3);
   
 
   const categories = ['All', 'Transfer', 'Deposit', 'Withdrawal', 'Bill Payment', 'POS'];

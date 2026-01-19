@@ -16,7 +16,9 @@
     }
 }
 .main-content {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 0 16px;
+  max-width: 900px;
+  margin: -60px auto 0; // pull up over header for overlap effect (common in apps)
+  padding: 0 16px;
+  position: relative;
+  z-index: 2;
 }

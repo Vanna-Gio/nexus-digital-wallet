@@ -1,4 +1,5 @@
 @import '../styles/variables';
+
 .balance-card {
     background: linear-gradient(135deg, $deep-blue, #004080);
     color: $white;
@@ -26,6 +27,7 @@
             .amount {
                 font-size: 1.8rem;
                 font-weight: 600;
+                
             }
         }
         .usd .amount { color: $gold}
